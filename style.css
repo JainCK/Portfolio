@@ -69,6 +69,18 @@ body, h1, h2, p, ul, li {
   #skills {
     padding: 50px;
   }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .skills-divider {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
   
   /* Services section styles */
   #services {
@@ -117,4 +129,5 @@ body, h1, h2, p, ul, li {
     transform: translateY(0);
     opacity: 1;
   }
+  
   
