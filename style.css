@@ -33,6 +33,11 @@ body, h1, h2, p, ul, li {
     text-decoration: none;
     color: #fff; /* Navigation link color */
   }
+
+  section {
+    margin-bottom: 50px;
+  }
+  
   
   /* Hero section styles */
   #hero {
@@ -91,6 +96,15 @@ body, h1, h2, p, ul, li {
     font-size: 2em;
     margin-bottom: 20px;
   }
+
+  .service-group {
+    margin-top: 30px;
+  }
+  
+  .service-group h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
   
   /* Contact section styles */
   #contact {
@@ -130,4 +144,17 @@ body, h1, h2, p, ul, li {
     opacity: 1;
   }
   
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
   
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .skills-container {
+      grid-template-columns: 1fr;
+    }
+  }
