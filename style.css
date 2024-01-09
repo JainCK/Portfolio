@@ -76,6 +76,10 @@ body, h1, h2, p, ul, li {
     padding: 50px;
   }
 
+  .skillhead{
+    margin-bottom: 25px;
+  }
+
   .skills-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -85,8 +89,22 @@ body, h1, h2, p, ul, li {
   .skills-divider {
     font-size: 1.5em;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
   }
+
+ 
   
+  .card {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
   
   /* Services section styles */
   #services {
